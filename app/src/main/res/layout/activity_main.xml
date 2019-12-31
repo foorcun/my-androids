@@ -12,9 +12,10 @@
         android:id="@+id/btnSendMsgToNextActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
         android:text="Send data to next activity"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="317dp" />
+        app:layout_constraintTop_toBottomOf="@+id/etUserMsg"
+        tools:layout_editor_absoluteX="161dp" />
 
     <EditText
         android:id="@+id/etUserMsg"
