@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mymaptry">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> //current location
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> //current location
 
     <application
         android:allowBackup="true"
